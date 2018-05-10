@@ -1,0 +1,19 @@
+html {
+	font-size: 10px;
+	
+}
+body {
+	background: $bg-gradient;
+	width: 100%;
+	font-family: $common-font;
+	overflow-x: hidden;
+
+}
+.container {
+	max-width: 980px;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+
+}
+

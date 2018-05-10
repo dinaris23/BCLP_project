@@ -1,0 +1,40 @@
+.header {
+	position: relative;
+	width: 100%;
+	&_bg {
+		padding-bottom: 40%;
+		background: url('../img/header_banner.jpg') no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	&_top {
+		width: 100%;
+		position: absolute;
+		top: 5%;
+		display: flex;
+		justify-content: center;
+	}	
+	&_logo {
+		
+	}
+	&_btn {
+		display: inline-block;
+		background: linear-gradient(rgb(169, 3, 41), rgb(154, 3, 37) 60%, rgb(119, 2, 29));
+		position: absolute;
+		bottom: 3%;
+		color: $white-color;
+		left: 50%;
+		transform: translateX(-50%);
+		padding: 1% 5%;
+		@include fontSize(18);
+		transition: all 0.5s ease;
+		cursor: pointer;
+		border-radius: 4px;
+		text-transform: uppercase;
+		&:hover {
+			text-decoration: none;
+			color: #ffffff;
+			background: linear-gradient(rgb(109, 2, 26), rgb(154, 3, 37) 40%, rgb(109, 2, 26));
+		}
+	}
+}
